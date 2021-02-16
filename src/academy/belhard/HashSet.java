@@ -1,5 +1,7 @@
 package academy.belhard;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Set;
 
 public class HashSet {
@@ -15,6 +17,8 @@ public class HashSet {
        myList.add(s3);
        myList.add(s4);
        myList.add(s5);
+       for (Person i:myList)
+           System.out.println(i);
         System.out.println("Number of different people="+myList.size());
     }
 }
