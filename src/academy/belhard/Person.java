@@ -18,8 +18,8 @@ final class  Person {
         if (this==path) return true;
         if (!(path instanceof Person)) return false;
         Person person=(Person) path;
-        return firstName == person.firstName &&
-                lastName == person.lastName &&
+        return firstName.equals(person.firstName) &&
+                lastName.equals(person.lastName) &
                 gender==person.gender;
     }
 
